@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>律師事務所 - 免費法律諮詢｜新竹台南律師事務所推薦｜民事刑事行政訴訟</title>
+  <meta name="description" content="OO律師事務所提供免費法律諮詢，專精民事、刑事、家事離婚、遺產繼承、車禍糾紛、詐欺案件等訴訟服務。費用透明、流程清楚，台北市中心交通便捷。">
+  <meta property="og:title" content="OO律師事務所 - 免費法律諮詢｜新竹台南律師事務所推薦">
+  <meta property="og:description" content="專業律師團隊提供免費法律諮詢，民事刑事訴訟、家事離婚、遺產繼承、企業法律顧問。費用透明、流程清楚可追蹤。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#" class="logo" data-i18n="nav.logo">澄域法律事務所</a>
+    <button class="nav-toggle" id="navToggle" aria-label="開啟選單">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" data-i18n="nav.free">免費法律諮詢</a></li>
+      <li><a href="#services" data-i18n="nav.services">服務項目</a></li>
+      <!-- <li><a href="#about">法律顧問</a></li> -->
+      <li><a href="#pricing" data-i18n="nav.pricing">收費標準</a></li>
+      <li><a href="#team" data-i18n="nav.team">專業團隊</a></li>
+      <li><a href="#news" data-i18n="nav.news">最新消息</a></li>
+      <li><a href="#about-firm" data-i18n="nav.about">關於我們</a></li>
+      <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">聯絡我們</a></li>
+    </ul>
+    <button class="lang-toggle" id="langToggle" aria-label="切換語言">EN</button>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-subtitle" data-i18n="hero.subtitle">ABOUT OUR FIRM</p>
+    <h1 data-i18n="hero.title">專業捍衛，信賴託付</h1>
+    <p class="hero-desc" data-i18n="hero.desc">
+      澄域法律事務所深耕民刑事訴訟、勞資爭議、家事紛爭、不動產訴訟、執行、法律顧問等多項法律服務；並提供免費法律諮詢服務。
+    </p>
+    <!-- <p class="hero-location">本所位於台北市中心，交通便捷，能即時提供支援。</p> -->
+    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">免費諮詢</a>
+    <button class="btn btn-line" id="lineBtn" aria-label="加入LINE好友">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="#fff" style="vertical-align:middle;margin-right:6px;">
+        <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+      </svg>
+      <span data-i18n="hero.line">LINE 諮詢</span>
+    </button>
+
+    <!-- LINE QR Code Modal -->
+    <div class="modal-overlay" id="lineModal">
+      <div class="modal-content">
+        <button class="modal-close" id="lineModalClose" aria-label="關閉">&times;</button>
+        <div class="modal-body">
+          <svg viewBox="0 0 24 24" width="40" height="40" fill="#06C755">
+            <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+          </svg>
+          <h3 data-i18n="modal.title">加入 LINE 好友</h3>
+          <p data-i18n="modal.desc">掃描下方 QR Code 立即諮詢</p>
+          <!-- 請將下方 src 替換為您的 LINE QR Code 圖片 -->
+          <div class="qr-placeholder" id="qrCode">
+            <img src="IMG_1914.png" alt="LINE QR Code">
+          </div>
+          <p class="line-id">LINE ID: @154axemr</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-subtitle">SERVICE CONTENT</p>
+      <h2 data-i18n="svc.title">服務項目</h2>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon">⚖️</div>
+        <h3 data-i18n="svc.civil">民事糾紛</h3>
+        <p data-i18n="svc.civil.desc">協助處理侵權賠償、金錢債務與契約爭議，提供明確策略與文件，保障您的合法權益。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🔒</div>
+        <h3 data-i18n="svc.criminal">刑事法律</h3>
+        <p data-i18n="svc.criminal.desc">偵查到審判全程陪同與攻防，爭取緩起訴、無罪或減輕刑責，替您把風險降到最低。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">👨‍👩‍👧</div>
+        <h3 data-i18n="svc.family">家事離婚</h3>
+        <p data-i18n="svc.family.desc">處理離婚、監護權、扶養與財產分配，兼顧權益與親子關係，穩定過渡新生活。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📋</div>
+        <h3 data-i18n="svc.inheritance">遺產繼承</h3>
+        <p data-i18n="svc.inheritance.desc">事前規劃與爭議處理併行，協助清點遺產、分割與聲請繼承登記，讓分配更透明。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💼</div>
+        <h3 data-i18n="svc.consultant">法律顧問</h3>
+        <p data-i18n="svc.consultant.desc">企業、社區管委會與個人專屬法務顧問，提供合約審閱、風險管理與法律策略，建立長期保障。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💰</div>
+        <h3 data-i18n="svc.labor">勞資爭議</h3>
+        <p data-i18n="svc.labor.desc">解僱、資遣、加班、調職、職業傷害、員工保密與競業禁止等各類勞資爭議事件之處理。
+          協助企業撰擬聘僱契約、員工保密與競業禁止協議、獎懲辦法或工作規則，參與勞資衝突之和解協商。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🚗</div>
+        <h3 data-i18n="svc.traffic">車禍糾紛</h3>
+        <p data-i18n="svc.traffic.desc">交通事故賠償、刑責與保險理賠併行，完整協助蒐證、談判與訴訟，守護受害者權益。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🛡️</div>
+        <h3 data-i18n="svc.fraud">詐欺案件</h3>
+        <p data-i18n="svc.fraud.desc">專辦網路詐騙、投資陷阱與財產侵害，提供報案指引、假扣押與訴訟策略，追回損失。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🏠</div>
+        <h3 data-i18n="svc.realestate">不動產案件</h3>
+        <p data-i18n="svc.realestate.desc">預售屋買賣、建物鄰損、拆屋還地、塗銷抵押權或地上權登記、袋地通行權、土地分割、確認經界等各類不動產事件之處理。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">⚖️</div>
+        <h3 data-i18n="svc.special">特別程序</h3>
+        <p data-i18n="svc.special.desc">聲請強制執行、假執行、支付命令、本票裁定、假扣押、假處分。</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📋</div>
+        <h3 data-i18n="svc.other">其他</h3>
+        <p data-i18n="svc.other.desc">提供法律諮詢、教育訓練、契約見證等服務。協助撰擬契約、存證信函、律師函、法律意見書等各類文件。</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Consultant Section -->
+<!-- <section class="consultant" id="about">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-subtitle">LEGAL CONSULTANT</p>
+      <h2>法律顧問方案</h2>
+    </div>
+    <div class="consultant-grid">
+
+      <div class="consultant-card">
+        <div class="consultant-header">
+          <span class="consultant-label">A方案</span>
+          <h3>新創企業</h3>
+          <div class="consultant-price">$12,500<span>/月</span></div>
+        </div>
+        <ul class="consultant-features">
+          <li>不限時數諮詢（企業專屬、LINE專屬、重視隱私）</li>
+          <li>勞資關係三寶（勞資條件檢核表、勞動契約、工作規則）</li>
+          <li>提供法律顧問證書乙份</li>
+          <li>法律專業服務按一般收費之 95 折計算</li>
+        </ul>
+      </div>
+
+      <div class="consultant-card featured">
+        <div class="consultant-badge">熱門方案</div>
+        <div class="consultant-header">
+          <span class="consultant-label">B方案</span>
+          <h3>中小企業</h3>
+          <div class="consultant-price">$30,000<span>/月</span></div>
+        </div>
+        <ul class="consultant-features">
+          <li>電話、LINE 等線上諮詢均不收費</li>
+          <li>可審閱中文合約六份</li>
+          <li>提供法律顧問證書乙份</li>
+          <li>訴訟或其他服務需求享 9 折優惠</li>
+        </ul>
+      </div>
+
+      <div class="consultant-card">
+        <div class="consultant-header">
+          <span class="consultant-label">C方案</span>
+          <h3>一般企業</h3>
+          <div class="consultant-price">$50,000<span>/月</span></div>
+        </div>
+        <ul class="consultant-features">
+          <li>電話、LINE 等線上諮詢均不收費</li>
+          <li>法律服務時數 18 小時（契約審閱、律師函、出席會議等）</li>
+          <li>時數用完可加值續購</li>
+          <li>提供法律顧問證書乙份</li>
+          <li>訴訟或其他服務需求享 8 折優惠</li>
+        </ul>
+      </div>
+
+      <div class="consultant-card">
+        <div class="consultant-header">
+          <span class="consultant-label">D方案</span>
+          <h3>社區管理委員會</h3>
+          <div class="consultant-price">$25,000<span>/期</span></div>
+        </div>
+        <ul class="consultant-features">
+          <li>提供法律顧問證書（期滿自動失效）</li>
+          <li>8 小時法律顧問時數</li>
+          <li>陪同參加區分所有權人會議或管委會會議</li>
+          <li>社區對外採購合約、存證信函、律師函撰擬與審閱</li>
+          <li>社區對內聘僱合約、法律意見書撰擬與審閱</li>
+          <li>超過時數按每小時 3,000 元另計</li>
+        </ul>
+      </div>
+
+      <div class="consultant-card">
+        <div class="consultant-header">
+          <span class="consultant-label">E方案</span>
+          <h3>法律顧問證書</h3>
+          <div class="consultant-price">$10,000<span>/年</span></div>
+        </div>
+        <ul class="consultant-features">
+          <li>免費 15 分鐘電話諮詢（5 次）</li>
+          <li>LINE 或郵件法律諮詢</li>
+          <li>諮詢限 1 年內使用完畢</li>
+          <li>提供法律顧問證書乙份</li>
+          <li>法律專業服務按一般收費之 95 折計算</li>
+        </ul>
+      </div>
+
+      <div class="consultant-card consultant-custom">
+        <div class="consultant-header">
+          <span class="consultant-label">F方案</span>
+          <h3>依需求量身訂作</h3>
+          <div class="consultant-price">依需求<span>報價</span></div>
+        </div>
+        <ul class="consultant-features">
+          <li>請電洽服務需求後，由專人回覆報價</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary" style="margin-top:auto;">立即諮詢</a>
+      </div>
+
+    </div>
+    <p class="consultant-note">※ 以上費用均為未稅價</p>
+  </div>
+</section> -->
+
+<!-- Pricing Section -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-subtitle">SERVICE PROCESS &amp; FEES</p>
+      <h2 data-i18n="price.title">服務流程與費用說明</h2>
+      <!-- <p class="section-desc">本所採「免費諮詢評估、公開透明費用、簽訂委任」三段式流程。</p> -->
+    </div>
+
+    <!-- 三階段流程 -->
+    <div class="pricing-steps">
+      <div class="pricing-step">
+        <div class="step-number">1</div>
+        <h3 data-i18n="price.step1">免費諮詢</h3>
+        <p data-i18n="price.step1.desc">免費諮詢（LINE或首次現場），釐清案件方向。</p>
+        <div class="step-price">NT$ 0</div>
+      </div>
+      <div class="pricing-step">
+        <div class="step-number">2</div>
+        <h3 data-i18n="price.step2">付費諮詢</h3>
+        <p data-i18n="price.step2.desc">預約現場諮詢律師一對一案件討論說明及專業分析(現場)</p>
+        <div class="step-price" data-i18n="price.step2.price">NT$ 2,000起</div>
+      </div>
+      <div class="pricing-step">
+        <div class="step-number">3</div>
+        <h3 data-i18n="price.step3">正式委任</h3>
+        <p data-i18n="price.step3.desc">簽訂委任契約，律師全程處理案件。</p>
+        <div class="step-price" data-i18n="price.step3.price">依案件計價</div>
+      </div>
+    </div>
+
+    <!-- 收費明細 -->
+    <div class="pricing-detail">
+      <h3 data-i18n="price.table.title">律師收費標準</h3>
+      <p class="pricing-badge" data-i18n="price.table.badge">■ 公開透明、收費親民 ■</p>
+      <div class="pricing-table">
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.consult">付費諮詢服務</span>
+          <span class="pricing-value" data-i18n="price.consult.val">2,000 元/30分鐘</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.letter">律師函</span>
+          <span class="pricing-value" data-i18n="price.letter.val">10,000 元(起)</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.certified">存證信函</span>
+          <span class="pricing-value" data-i18n="price.certified.val">6,000 元(起)</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.litigation">訴訟委任</span>
+          <span class="pricing-value" data-i18n="price.litigation.val">60,000 元/審(起)</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.brief">書狀撰寫 </span>
+          <span class="pricing-value" data-i18n="price.brief.val">15,000 元/狀(起)</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.contract">契約撰擬 </span>
+          <span class="pricing-value" data-i18n="price.contract.val">12,000 元(起)</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.enforcement">執行程序 </span>
+          <span class="pricing-value" data-i18n="price.enforcement.val">依個案報價</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item" data-i18n="price.othersvc">其他法律服務 </span>
+          <span class="pricing-value" data-i18n="price.othersvc.val">依個案報價</span>
+        </div>
+        <!-- <div class="pricing-row">
+          <span class="pricing-item">離婚訴訟（一審包案）</span>
+          <span class="pricing-value">60,000 – 80,000 元</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item">證人一位</span>
+          <span class="pricing-value">1,000 元</span>
+        </div>
+        <div class="pricing-row">
+          <span class="pricing-item">常年法律顧問方案</span>
+          <span class="pricing-value">依需求客製報價</span>
+        </div> -->
+      </div>
+      <div class="pricing-notes">
+        <!-- <p>※ 律師安排離婚協議諮詢與規劃，非一般範本填寫，確保當事人重要權益</p>
+        <p>※ 尚未列入項目將繼續公告費用，LINE 可直接詢問費用</p> -->
+        <p data-i18n="price.note">☑ 服務範圍：台北、新北、桃園、新竹、台中、台南及高雄等全國區域</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <h2 data-i18n="test.title">客戶回饋</h2>
+      <p class="section-desc" data-i18n="test.desc">謝謝給予最好的鼓勵，是我們前進的動力</p>
+    </div>
+    <div class="testimonials-track">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p data-i18n="test.1">「原本以為很複雜的離婚程序，在律師的協助下順利完成，非常感謝。」</p>
+        <span class="client-name" data-i18n="test.1.name">— 丁先生</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p data-i18n="test.2">「律師非常專業且有耐心，從頭到尾都很細心地幫我處理案件，讓我安心不少。」</p>
+        <span class="client-name" data-i18n="test.2.name">— 呂小姐</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p data-i18n="test.3">「免費諮詢就讓我對案件有了清楚的方向，後續委任也很放心，大力推薦。」</p>
+        <span class="client-name" data-i18n="test.3.name">— 翁先生</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p data-i18n="test.4">「車禍理賠的部分幫我爭取到合理的賠償金額，過程中律師都很積極處理。」</p>
+        <span class="client-name" data-i18n="test.4.name">— 黃小姐</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-subtitle">COMMON PROBLEM</p>
+      <h2 data-i18n="faq.title">常見問題</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.q1">什麼是免費法律諮詢？可以問哪些問題？</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a1">本所提供免費法律諮詢(line或首次現場諮詢)，律師免費為您解答，協助您釐清法律問題，無論是民事、刑事、離婚、合約、遺產、債務、執行、子女等案件，皆可由律師提供初步分析與方向建議。透過免費諮詢，讓您能先掌握自身處境，再評估後續法律行動，降低誤判與爭議風險。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.q2">我的案件是民事還是刑事？該怎麼判斷？</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a2">許多案件可能同時涉及民事與刑事，建議先由律師判斷。律師能協助區分訴訟類型並提供完整策略，避免走錯途徑。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.q3">調解跟訴訟有什麼不同？</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a3">調解屬於協商性質，程序簡單快速；訴訟則較正式，需法院裁判。律師能評估案件狀況，建議先嘗試調解，再決定是否進入訴訟。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.q4">已經簽了契約，還能反悔嗎？</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a4">若契約存在顯失公平或違法條款，仍可能聲請撤銷或主張無效。律師能審查契約並提出法律救濟，協助當事人減少損失。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.q5">被詐騙了可以提告嗎？</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a5">可以。律師能協助報案、蒐證並提出訴訟或協商，針對詐騙與消費爭議提供完整處理方案，保障受害人權益。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.q6">打官司要花多久時間？</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a6">時間依案件性質而異，調解可能數週，訴訟則需數月甚至數年。律師能協助簡化爭點，加快處理進度，避免不必要的拖延。</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq-cta">
+      <p data-i18n="faq.cta.text">仍有不清楚之處？</p>
+      <a href="#contact" class="btn btn-primary" data-i18n="faq.cta.btn">立即免費諮詢</a>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-subtitle">PROFESSIONAL TEAM</p>
+      <h2 data-i18n="team.title">律師團隊</h2>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-photo"><img src="IMG_1915.jpeg" alt="黃千玲律師"></div>
+        <h3 data-i18n="team.name">黃千玲律師</h3>
+        <p data-i18n="team.motto">從法院實務到律師實戰，以雙重資歷守護當事人權益。</p>
+          <p data-i18n="team.credentials">國家律師考試、書記官考試雙榜及格|多年法院及執業資歷。</p>
+          <p data-i18n="team.bio">憑藉多年台南地方法院書記官背景與深厚的律師實戰經驗，深諳法院運作脈絡與審理邏輯。以[司法體系]與[法律攻防]雙重視角，守護當事人權益。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cases Section -->
+<!-- <section class="cases" id="cases">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-subtitle">CASE STUDIES</p>
+      <h2>成功案例</h2>
+      <p class="section-desc">不論案件大小、律師全力以赴，爭取最大權益</p>
+    </div>
+    <div class="cases-grid">
+      <div class="case-card">
+        <p>原告委任本所提告侵權行為損害賠償獲賠陸拾萬元</p>
+        <span class="case-tag">#地方法院</span>
+      </div>
+      <div class="case-card">
+        <p>原告委任本所提起遺產分割訴訟調解成立</p>
+        <span class="case-tag">#地方法院家事庭</span>
+      </div>
+      <div class="case-card">
+        <p>被告委任本所擔任返還借款訴訟代理人獲勝訴免還款</p>
+        <span class="case-tag">#地方法院</span>
+      </div>
+      <div class="case-card">
+        <p>原告委任本所提起損害賠償（漏水）勝訴</p>
+        <span class="case-tag">#高等法院</span>
+      </div>
+      <div class="case-card">
+        <p>原告委任本所提起詐欺刑附民事訴訟勝訴</p>
+        <span class="case-tag">#地方法院</span>
+      </div>
+      <div class="case-card">
+        <p>委任本所擔任選任辯護人獲判公訴不受理</p>
+        <span class="case-tag">#地方法院</span>
+      </div>
+      <div class="case-card">
+        <p>原告委任本所確認本票債權不存在勝訴</p>
+        <span class="case-tag">#地方法院</span>
+      </div>
+      <div class="case-card">
+        <p>告訴人委任本所擔任個人資料保護法告訴代理人勝訴</p>
+        <span class="case-tag">#地方法院</span>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- News Section -->
+<section class="news" id="news">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-subtitle">LATEST NEWS</p>
+      <h2 data-i18n="news.title">最新消息</h2>
+    </div>
+    <div class="news-grid">
+
+      <!-- <article class="news-card">
+        <div class="news-date">
+          <span class="news-day">15</span>
+          <span class="news-month">2026.02</span>
+        </div>
+        <div class="news-body">
+          <span class="news-tag">勝訴案例</span>
+          <h3>恭喜委託人王先生民事損害賠償案件勝訴，獲判賠償金額新台幣伍拾萬元整</h3>
+          <p>本所代理原告提起侵權行為損害賠償訴訟，經法院審理後判決被告應賠償原告所受損害，全案勝訴確定。</p>
+        </div>
+      </article> -->
+
+      <!-- <article class="news-card">
+        <div class="news-date">
+          <span class="news-day">08</span>
+          <span class="news-month">2026.02</span>
+        </div>
+        <div class="news-body">
+          <span class="news-tag">勝訴案例</span>
+          <h3>恭喜委託人陳小姐離婚訴訟案件調解成立，順利取得子女監護權</h3>
+          <p>本所代理當事人進行離婚訴訟，經法院調解程序，雙方就離婚條件、子女監護權及扶養費達成共識，調解成立。</p>
+        </div>
+      </article> -->
+
+      <article class="news-card">
+        <div class="news-date">
+          <span class="news-day">25</span>
+          <span class="news-month">2026.01</span>
+        </div>
+        <div class="news-body">
+          <span class="news-tag" data-i18n="news.tag.announce">事務所公告</span>
+          <h3 data-i18n="news.1.title">本所新增IG帳號:chengyuhuanglawyer以及Threads帳號:chengyuhuanglawyer</h3>
+          <p data-i18n="news.1.desc">歡迎追蹤，律師會不定時分享法律新鮮事及法普知識。</p>
+        </div>
+      </article>
+
+      <!-- <article class="news-card">
+        <div class="news-date">
+          <span class="news-day">18</span>
+          <span class="news-month">2026.01</span>
+        </div>
+        <div class="news-body">
+          <span class="news-tag">勝訴案例</span>
+          <h3>恭喜委託人林先生詐欺案件獲判不起訴處分</h3>
+          <p>本所擔任被告選任辯護人，經偵查程序積極提出有利證據與答辯，檢察官最終為不起訴處分。</p>
+        </div>
+      </article> -->
+
+      <!-- <article class="news-card">
+        <div class="news-date">
+          <span class="news-day">05</span>
+          <span class="news-month">2026.01</span>
+        </div>
+        <div class="news-body">
+          <span class="news-tag">法律新知</span>
+          <h3>2026 年勞動基準法修正重點整理，雇主與勞工必知事項</h3>
+          <p>針對近期勞基法修正內容，本所整理重點條文變動與實務影響，供企業主與勞工朋友參考。</p>
+        </div>
+      </article> -->
+
+      <!-- <article class="news-card">
+        <div class="news-date">
+          <span class="news-day">20</span>
+          <span class="news-month">2025.12</span>
+        </div>
+        <div class="news-body">
+          <span class="news-tag">勝訴案例</span>
+          <h3>恭喜委託人張先生遺產分割訴訟勝訴，成功取得應有遺產份額</h3>
+          <p>本所代理原告提起遺產分割訴訟，法院判決按法定應繼分比例分割遺產，當事人順利取得應有份額。</p>
+        </div>
+      </article> -->
+
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about-firm">
+  <div class="container">
+
+    <!-- 事務所介紹 -->
+    <div class="about-hero">
+      <div class="section-header">
+        <p class="section-subtitle">ABOUT OUR FIRM</p>
+        <h2 data-i18n="about.title">澄域法律事務所</h2>
+      </div>
+      <p class="about-intro" data-i18n="about.intro">
+        澄域法律事務所以[專業捍衛，信賴託付]的理念深耕民刑事訴訟、勞資爭議、家事紛爭、不動產訴訟、執行、法律顧問等多項法律服務;並提供免費法律諮詢服務。
+      </p>
+    </div>
+
+    <!-- 數據統計 -->
+    <!-- <div class="about-stats">
+      <div class="stat-item">
+        <span class="stat-number" data-target="1200">0</span>
+        <span class="stat-label">民事／刑事成功案件（含調解成功）</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="10">0</span><span class="stat-suffix">年</span>
+        <span class="stat-label">平均執業經驗</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+        <span class="stat-label">客戶推薦率（諮詢後回饋）</span>
+      </div>
+    </div> -->
+
+    <!-- 源起與理念 -->
+    <!-- <div class="about-content">
+      <div class="about-block">
+        <h3>事務所源起</h3>
+        <p>
+          我們匯集多元學經歷的律師，期許為一般民眾、新創公司與弱勢族群發聲；
+          本所位於台北市中心，交通便捷，能即時提供支援。
+        </p>
+      </div>
+      <div class="about-block">
+        <h3>法律理念</h3>
+        <p class="about-subtitle">您的重要權益，我們為您把關</p>
+        <ul class="about-values">
+          <li><span>同理 × 專業</span>諮詢當下先安定情緒，給出可執行的下一步。</li>
+          <li><span>流程與費用透明</span>初談即說明風險、時程與費用結構。</li>
+          <li><span>策略導向</span>勝訴可能 × 執行可得性 × 時間成本</li>
+        </ul>
+      </div>
+      <div class="about-block">
+        <h3>追求展望</h3>
+        <div class="about-pillars">
+          <div class="pillar">專業</div>
+          <div class="pillar">服務</div>
+          <div class="pillar">同理</div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- 發展里程碑 -->
+    <!-- <div class="about-timeline">
+      <h3>發展里程碑</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2015 年</div>
+          <div class="timeline-desc">成立律師事務所。</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2017 年</div>
+          <div class="timeline-desc">導入官網線上諮詢與 LINE 線上諮詢，提升多元顧客溝通平台。</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2025 年</div>
+          <div class="timeline-desc">持續提升繼承與家事離婚服務效率。</div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- 客戶怎麼說 -->
+    <!-- <div class="about-quotes">
+      <h3>客戶怎麼說</h3>
+      <div class="quotes-grid">
+        <div class="quote-card">
+          <p>「五分鐘釐清爭點，先做什麼一目了然。」</p>
+          <span>— 林小姐｜勞資爭議</span>
+        </div>
+        <div class="quote-card">
+          <p>「每次會議都有行動項與期限，進度看得見。」</p>
+          <span>— 陳小姐｜家事離婚</span>
+        </div>
+        <div class="quote-card">
+          <p>「證據表與時程表管控，風險與成本都透明。」</p>
+          <span>— 王經理｜財務糾紛</span>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <p class="about-disclaimer">本頁資訊僅供一般法律知識與服務介紹，不構成個別法律意見；正式委任以前，律師與當事人間不成立代理關係。</p> -->
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h2 data-i18n="contact.title">免費法律諮詢</h2>
+        <p data-i18n="contact.desc">用心聆聽您的問題，立即安排諮詢協助</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <a href="https://www.google.com/maps/search/?api=1&query=新竹縣竹北市自強南路155號3樓" target="_blank" rel="noopener" class="contact-link" data-i18n="contact.address">地址: 新竹縣竹北市自強南路155號3樓</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span data-i18n="contact.phone">電話: 03-6581500</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon"><i class="fa-brands fa-line"></i></span>
+            <a href="#" class="contact-link line-trigger">LINE ID: @154axemr</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <a href="mailto:chengyuhuanglawyer@gmail.com" class="contact-link" data-i18n="contact.email">信箱: chengyuhuanglawyer@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🕐</span>
+            <span data-i18n="contact.hours">週一至週五 09:00 - 18:00</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon"><i class="fa-brands fa-instagram"></i></span>
+            <a href="https://www.instagram.com/chengyuhuanglawyer" target="_blank" rel="noopener" class="contact-link">Instagram: @chengyuhuanglawyer</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon"><i class="fa-brands fa-threads"></i></span>
+            <a href="https://www.threads.com/@chengyuhuanglawyer" target="_blank" rel="noopener" class="contact-link">Threads: @chengyuhuanglawyer</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon"><i class="fa-brands fa-linkedin"></i></span>
+            <a href="https://www.linkedin.com/in/%E5%8D%83%E7%8E%B2%E5%BE%8B%E5%B8%AB-%E9%BB%83-76b50a3b5/" target="_blank" rel="noopener" class="contact-link">LinkedIn: 澄域法律事務所</a>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xdawnqpa" method="POST">
+        <input type="hidden" name="_subject" value="網站新諮詢表單">
+        <input type="text" name="_gotcha" style="display:none">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name" data-i18n="form.name">姓名</label>
+            <input type="text" id="name" name="姓名" placeholder="請輸入姓名" required data-i18n="form.name.ph">
+          </div>
+          <div class="form-group">
+            <label for="phone" data-i18n="form.phone">電話</label>
+            <input type="tel" id="phone" name="電話" placeholder="請輸入電話" required data-i18n="form.phone.ph">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email" data-i18n="form.email">電子信箱</label>
+            <input type="email" id="email" name="電子信箱" placeholder="請輸入電子信箱" data-i18n="form.email.ph">
+          </div>
+          <div class="form-group">
+            <label for="company" data-i18n="form.company">公司名稱</label>
+            <input type="text" id="company" name="公司名稱" placeholder="請輸入公司名稱（選填）" data-i18n="form.company.ph">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nationality" data-i18n="form.nationality">國籍</label>
+            <select id="nationality" name="國籍">
+              <option value="" data-i18n="form.nationality.ph">請選擇國籍</option>
+              <option value="本國人" data-i18n="form.nationality.local">本國人</option>
+              <option value="外國人" data-i18n="form.nationality.foreign">外國人</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="consult_type" data-i18n="form.type">諮詢類型</label>
+            <select id="consult_type" name="諮詢類型">
+              <option value="" data-i18n="form.type.ph">請選擇諮詢類型</option>
+              <option value="民事糾紛" data-i18n="form.type.civil">民事糾紛</option>
+              <option value="刑事法律" data-i18n="form.type.criminal">刑事法律</option>
+              <option value="家事離婚" data-i18n="form.type.family">家事離婚</option>
+              <option value="遺產繼承" data-i18n="form.type.inheritance">遺產繼承</option>
+              <option value="法律顧問" data-i18n="form.type.consultant">法律顧問</option>
+              <option value="財務糾紛" data-i18n="form.type.finance">財務糾紛</option>
+              <option value="車禍糾紛" data-i18n="form.type.traffic">車禍糾紛</option>
+              <option value="詐欺案件" data-i18n="form.type.fraud">詐欺案件</option>
+              <option value="其他" data-i18n="form.type.other">其他</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="referral" data-i18n="form.referral">如何得知澄域法律事務所</label>
+          <select id="referral" name="如何得知澄域法律事務所" onchange="document.getElementById('referral-detail').style.display = (this.value === '親友介紹' || this.value === '其他') ? 'block' : 'none';">
+            <option value="" data-i18n="form.referral.ph">請選擇</option>
+            <option value="親友介紹" data-i18n="form.referral.friend">親友介紹</option>
+            <option value="Google">Google</option>
+            <option value="Facebook">Facebook</option>
+            <option value="IG">IG</option>
+            <option value="Threads">Threads</option>
+            <option value="其他" data-i18n="form.referral.other">其他</option>
+          </select>
+          <input type="text" id="referral-detail" name="補充說明（親友姓名或其他來源）" placeholder="請輸入親友姓名或其他來源" style="display:none;margin-top:8px;" data-i18n="form.referral.detail">
+        </div>
+        <div class="form-group">
+          <label for="contact_time" data-i18n="form.time">方便聯絡時間</label>
+          <input type="text" id="contact_time" name="方便聯絡時間" placeholder="例如：平日下午 2-5 點" data-i18n="form.time.ph">
+        </div>
+        <div class="form-group">
+          <label for="message" data-i18n="form.message">諮詢內容</label>
+          <textarea id="message" name="諮詢內容" rows="5" placeholder="請簡述您的法律問題" required data-i18n="form.message.ph"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" data-i18n="form.submit">送出諮詢</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3 data-i18n="footer.firm">澄域法律事務所</h3>
+        <p data-i18n="footer.desc">秉持專業捍衛，信賴託付的服務精神，為每一位當事人爭取最大權益。提供免費法律諮詢，讓您在面對法律問題時不再徬徨。</p>
+        <p><a href="#contact" style="color:var(--accent);font-weight:600;" data-i18n="footer.cta">立即免費諮詢</a></p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.services">服務項目</h4>
+        <ul>
+          <li><a href="#services" data-i18n="footer.civil">民事糾紛</a></li>
+          <li><a href="#services" data-i18n="footer.criminal">刑事法律</a></li>
+          <li><a href="#services" data-i18n="footer.family">家事離婚</a></li>
+          <li><a href="#services" data-i18n="footer.inheritance">遺產繼承</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.links">快速連結</h4>
+        <ul>
+          <li><a href="#about-firm" data-i18n="footer.aboutus">關於我們</a></li>
+          <li><a href="#team" data-i18n="footer.team">專業團隊</a></li>
+          <li><a href="#news" data-i18n="footer.cases">成功案例</a></li>
+          <li><a href="#contact" data-i18n="footer.contactus">聯絡我們</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact">聯絡資訊</h4>
+        <p><a href="https://www.google.com/maps/search/?api=1&query=新竹縣竹北市自強南路155號3樓" target="_blank" rel="noopener" class="contact-link" data-i18n="footer.address">新竹縣竹北市自強南路155號3樓</a></p>
+        <p>03-6581500</p>
+        <p><a href="mailto:chengyuhuanglawyer@gmail.com" class="contact-link">chengyuhuanglawyer@gmail.com</a></p>
+        <p><a href="#" class="contact-link line-trigger"><i class="fa-brands fa-line"></i> LINE ID: @154axemr</a></p>
+        <p><a href="https://www.instagram.com/chengyuhuanglawyer" target="_blank" rel="noopener" class="contact-link"><i class="fa-brands fa-instagram"></i> Instagram: @chengyuhuanglawyer</a></p>
+        <p><a href="https://www.threads.com/@chengyuhuanglawyer" target="_blank" rel="noopener" class="contact-link"><i class="fa-brands fa-threads"></i> Threads: @chengyuhuanglawyer</a></p>
+        <p><a href="https://www.linkedin.com/in/%E5%8D%83%E7%8E%B2%E5%BE%8B%E5%B8%AB-%E9%BB%83-76b50a3b5/" target="_blank" rel="noopener" class="contact-link"><i class="fa-brands fa-linkedin"></i> LinkedIn: 澄域法律事務所</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copyright">&copy; 2026 澄域法律事務所. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating LINE Button -->
+<button class="fab-line" id="fabLine" aria-label="LINE 諮詢">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff">
+    <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+  </svg>
+</button>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+
+<script src="script.js"></script>
+<script src="i18n.js"></script>
+</body>
+</html>
